@@ -1,0 +1,15 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`show render error page 1`] = `
+<div>
+  <p>
+    Error 404
+  </p>
+  <Link
+    replace={false}
+    to="/"
+  >
+    Go Home
+  </Link>
+</div>
+`;
