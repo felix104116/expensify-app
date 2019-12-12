@@ -6,7 +6,6 @@ import { SingleDatePicker } from 'react-dates';
 
 //const date = new Date();
 const date = moment();
-console.log(date.format('MMM Do, YYYY'));
 
 export default class ExpenseForm extends React.Component {
     constructor(props){
