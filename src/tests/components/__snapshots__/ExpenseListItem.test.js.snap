@@ -11,10 +11,10 @@ exports[`should render a single expense item 1`] = `
     </h3>
   </Link>
   <p>
-    costs $
-    95000
+    costs 
+    $950.00
      and was created on 
-    345600000
+    Jan 4th,1970
   </p>
 </div>
 `;
