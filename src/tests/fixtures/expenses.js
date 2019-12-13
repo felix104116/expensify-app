@@ -23,3 +23,13 @@ export default  [
         createdAt:moment(0).subtract(4,'days').valueOf()
     }
 ];
+
+export const singleExpense = [
+    {
+        id:'1',
+        description:'Lavage',
+        note:'',
+        amount:30000,
+        createdAt:moment(0).add(4,'days').valueOf()
+    }
+];
