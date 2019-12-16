@@ -8,6 +8,7 @@ import getExpensesTotal from '../selectors/expenses-total';
 export const ExpensesSummary = ({expenseCount,expenseTotal}) => {
     const expenseWord = expenseCount > 1 ? 'expenses' : 'expense';
     const formatedExpenseTotal = numeral(expenseTotal/100).format('$0,0.00');
+    console.log(expenseTotal);
 
     return(
         <div>
@@ -18,11 +19,10 @@ export const ExpensesSummary = ({expenseCount,expenseTotal}) => {
 }
 
 const mapStateToProps = (state) => {
-    const count = getExpenses(state.expenses,state.filters).length;
-    console.log(count);
+    const expenses = getExpenses(state.expenses,state.filters);
     return {
-        total: getExpensesTotal(state.expenses),
-        count
+        expenseCount:expenses.length,
+        expenseTotal: getExpensesTotal(expenses)
     }
 }
 
