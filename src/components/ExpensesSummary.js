@@ -8,8 +8,6 @@ import getExpensesTotal from '../selectors/expenses-total';
 export const ExpensesSummary = ({expenseCount,expenseTotal}) => {
     const expenseWord = expenseCount > 1 ? 'expenses' : 'expense';
     const formatedExpenseTotal = numeral(expenseTotal/100).format('$0,0.00');
-    console.log(expenseTotal);
-
     return(
         <div>
             <h2>Viewing {expenseCount} {expenseWord} totaling {formatedExpenseTotal}</h2>
