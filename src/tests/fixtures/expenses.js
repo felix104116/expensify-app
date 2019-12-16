@@ -21,7 +21,7 @@ export default  [
         note:'',
         amount:300,
         createdAt:moment(0).subtract(4,'days').valueOf()
-    }
+    },
 ];
 
 export const singleExpense = [
