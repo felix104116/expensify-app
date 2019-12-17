@@ -1,0 +1,29 @@
+.header__title{
+    color:white;
+    font-weight: 500;
+    font-size: $m-size;
+    h1{
+        margin:0;
+    }
+    text-decoration: none;
+    line-height: 1;
+}
+
+.header__navbar{
+    background-color:$dark-slate-grey;
+}
+
+.header__logout_button{
+    height: $m-size;
+    background-color:inherit;
+    border: none;
+    color:white;
+    font-size:$m-size;
+}
+
+.header__content{
+    align-items: center;
+    display:flex;
+    justify-content: space-between;
+    padding: $l-size 0;
+}

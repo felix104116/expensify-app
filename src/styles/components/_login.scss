@@ -1,0 +1,22 @@
+.login__box {
+    background-color:fade-out(white,.15);
+    width:25rem;
+    padding:$xl-size $l-size;
+}
+
+.login__page {
+    align-items:center;
+    background:url('/images/bg.jpg');
+    background-size:cover;
+    display:flex;
+    height:100vh;
+    justify-content: center;
+    text-align:center;
+    width: 100vw;
+}
+
+.login__title {
+    margin: 0 0 $m-size 0;
+    line-height: 1;
+    font-size:$xl-size;
+}

@@ -1,27 +1,63 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`should render ExpensesSummary component 1`] = `
-<div>
-  <h2>
-    Viewing 
-    1
-     
-    expense
-     totaling 
-    $3.00
-  </h2>
+<div
+  className="page-header"
+>
+  <div
+    className="content-container"
+  >
+    <h1
+      className="page-header__title"
+    >
+      Viewing 
+      <span>
+        1
+      </span>
+       
+      expense
+       totaling 
+      <span>
+        $3.00
+      </span>
+    </h1>
+    <button
+      className="bigButton"
+      onClick={[Function]}
+    >
+      Add Expense
+    </button>
+  </div>
 </div>
 `;
 
 exports[`should render ExpensesSummary with multiples expenses 1`] = `
-<div>
-  <h2>
-    Viewing 
-    7
-     
-    expenses
-     totaling 
-    $858,958.94
-  </h2>
+<div
+  className="page-header"
+>
+  <div
+    className="content-container"
+  >
+    <h1
+      className="page-header__title"
+    >
+      Viewing 
+      <span>
+        7
+      </span>
+       
+      expenses
+       totaling 
+      <span>
+        $858,958.94
+      </span>
+    </h1>
+    <button
+      className="bigButton"
+      onClick={[Function]}
+    >
+      Add Expense
+    </button>
+  </div>
 </div>
 `;

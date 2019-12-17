@@ -3,8 +3,10 @@ html{
 }
 
 body{
+    color:$dark-grey;
     font-family: Helvetica,Arial,sans-serif;
     font-size: $m-size;
+    line-height: 1.6;
 }
 
 button{
@@ -17,4 +19,12 @@ button:disabled{
 
 .is-active{
     font-weight: bold;
+}
+
+a{
+    text-decoration: none;
+}
+
+*{
+    box-sizing: border-box;
 }

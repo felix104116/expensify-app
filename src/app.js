@@ -6,6 +6,7 @@ import './styles/styles.scss';
 import 'react-dates/lib/css/_datepicker.css';
 import AppRouter, {history} from './routers/AppRouter';
 import configureStore from './store/configureStore';
+import LoadingPage from './components/LoadingPage';
 import {startSetExpenses} from './actions/expenses';
 import {login,logout} from './actions/auth';
 import getVisibleExpenses from './selectors/expenses';
@@ -27,7 +28,7 @@ const renderApp = () => {
         hasRendered = true;
     }
 }
-ReactDOM.render(<p>Loading...</p>,document.getElementById('app'));
+ReactDOM.render(<LoadingPage/>,document.getElementById('app'));
 
 
 

@@ -1,0 +1,16 @@
+.bigButton {
+    background-color:$darkBlue;
+    color:white;
+    border:none;
+    font-size: $font-size-large;
+    padding: $m-size;
+    line-height: 1;
+    display: inline-block;
+    text-align:center;
+    align-items: center;
+    vertical-align: middle;
+}
+
+.button--secondary {
+    background-color:#888888;
+}
